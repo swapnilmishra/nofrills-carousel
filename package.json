@@ -1,6 +1,6 @@
 {
-  "name": "carousel",
-  "version": "1.0.0",
+  "name": "nofrills-carousel",
+  "version": "0.0.1",
   "license": "MIT",
   "source": "lib/carousel.js",
   "main": "dist/carousel.js",
