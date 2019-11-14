@@ -3,9 +3,15 @@ import ReactDOM from "react-dom";
 import { Carousel } from "../lib/carousel";
 
 const images = [
-  "https://via.placeholder.com/350x350",
-  "https://via.placeholder.com/350x350",
-  "https://via.placeholder.com/350x350"
+  <div>
+    <img src="https://via.placeholder.com/350x350" />
+  </div>,
+  <div>
+    <img src="https://via.placeholder.com/350x350" />
+  </div>,
+  <div>
+    <img src="https://via.placeholder.com/350x350" />
+  </div>
 ];
 
 function App() {
