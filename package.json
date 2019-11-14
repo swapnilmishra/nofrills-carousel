@@ -1,16 +1,23 @@
 {
   "name": "carousel",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
-  "dependencies": {
+  "source": "lib/carousel.js",
+  "main": "dist/carousel.js",
+  "module": "dist/carousel.esm.js",
+  "peerDependencies": {
     "react": "^16.11.0",
     "react-dom": "^16.11.0"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "microbundle": "^0.11.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
   },
   "scripts": {
-    "dev": "parcel example/index.html"
+    "example": "parcel example/index.html --out-dir build/",
+    "build": "microbundle",
+    "dev": "microbundle watch"
   }
 }

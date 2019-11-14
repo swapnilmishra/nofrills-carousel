@@ -1,0 +1,2 @@
+var a=require("react");exports.Carousel=function(e){var r=e.images,c=r.length,n=a.useState(0),s=n[0],i=n[1];return console.log(s),h("div",{className:"carousel-container"},h("div",{className:"carousel-arrow"},h("div",{onClick:function(){i(0!==s?s-1:c-1)}},h("div",null,"<"))),h("div",{className:"carousel-content"},r.map(function(a,e){var r="";return h("img",{className:r+=e!==s?" hide":" animate",src:a,key:e,alt:a})})),h("div",{className:"carousel-arrow"},h("div",{onClick:function(){i(s+1!==c?s+1:0)}},">")))};
+//# sourceMappingURL=carousel.js.map

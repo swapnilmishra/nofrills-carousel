@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { Carousel } from "../lib/index";
+import { Carousel } from "../lib/carousel";
 
 const images = [
   "https://via.placeholder.com/350x350",

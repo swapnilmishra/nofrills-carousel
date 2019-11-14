@@ -1,0 +1,2 @@
+import{useState as a}from"react";var e=function(e){var r=e.images,c=r.length,n=a(0),o=n[0],i=n[1];return console.log(o),h("div",{className:"carousel-container"},h("div",{className:"carousel-arrow"},h("div",{onClick:function(){i(0!==o?o-1:c-1)}},h("div",null,"<"))),h("div",{className:"carousel-content"},r.map(function(a,e){var r="";return h("img",{className:r+=e!==o?" hide":" animate",src:a,key:e,alt:a})})),h("div",{className:"carousel-arrow"},h("div",{onClick:function(){i(o+1!==c?o+1:0)}},">")))};export{e as Carousel};
+//# sourceMappingURL=carousel.esm.js.map
