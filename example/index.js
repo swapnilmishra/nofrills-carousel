@@ -17,7 +17,7 @@ const images = [
 function App() {
   return (
     <div>
-      <Carousel images={images} />
+      <Carousel items={images} />
     </div>
   );
 }
